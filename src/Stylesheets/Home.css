@@ -1,0 +1,107 @@
+.nav-main{
+   background-color: #1836d2;
+    text-decoration-color: white;
+    color: white;
+}
+.topic{
+    color: white;
+    font-size: 32px;
+}
+.topic-link{
+    color: white;
+    font-size: 20px;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.background {
+    position: relative;
+    background-image: url('../Assets/Home-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+    width: auto;
+    height: 550px;
+}
+
+/*decorative cards*/
+.dec-crd-grp{
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.dec-crd{
+    height: fit-content;
+    padding: 20px;
+    margin-left : 70px;
+    margin-right: 70px;
+
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    /*box-shadow:20px 20px 50px 10px grey ;*/
+    cursor: pointer;
+
+}
+.dec-crd:hover{
+    height: fit-content;
+    padding: 20px;
+    margin-left : 70px;
+    margin-right: 70px;
+color: #1836d2;
+    border-radius: 10px;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    /*background-color: #1836d2;*/
+    /*color: white;*/
+    /*box-shadow: silver;*/
+    /*box-shadow:20px 20px 50px 10px grey inset;*/
+    /*transform: scaleX(-1);*/
+
+}
+.dec-crd-title{
+
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.dec-crd-txt{
+
+    font-size: 17px;
+    /*margin-top: 10px;*/
+    margin-bottom: 10px;
+}
+.btn-logout{
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    color: white;
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.btn-logout:hover{
+    background-color: white;
+    border-style: solid;
+    border-color: #1836d2;
+    border-radius: 20px;
+    color: #1836d2;
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+}
+.dp-name{
+    margin-top: 30px;
+    font-size: 16px;
+}
+.logo-img:hover{
+    transform: scale(1.05);
+    /*box-shadow:20px 20px 50px 10px grey ;*/
+    cursor: pointer;
+}

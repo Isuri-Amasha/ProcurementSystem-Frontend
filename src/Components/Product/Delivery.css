@@ -1,0 +1,32 @@
+.delivery-grp{
+    margin-left: 40px;
+    margin-top: 30px;
+
+}
+.delivery-lbl{
+    font-size: 18px;
+    margin-bottom:10px;
+}
+.delivery-input{
+    border-style: solid;
+    border-color: rgba(24, 54, 210, 0.66);
+    border-radius: 10px;
+    height: 40px;
+}
+.delivery-input:hover{
+    border-style: solid;
+    border-color: #1836d2;
+    border-radius: 10px;
+    height: 40px;
+}
+.delivery-btn{
+    width: 400px;
+    height: 50px;
+    background-color: #1836d2;
+    border-style: solid;
+    border-color: #1836d2;
+    border-radius: 30px;
+    color: white;
+    margin-top: 80px;
+    font-size: 20px;
+}

@@ -1,0 +1,79 @@
+
+.main-div {
+    height: 450px;
+
+}
+.crd-payment-title{
+    font-size: 34px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.crd-payment-tb{
+
+    height: 600px;
+    margin: 20px 100px;
+    /*overflow-y: scroll;*/
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    /*background-color: magenta;*/
+    border-radius: 20px;
+    border-style: solid;
+    border-color: silver;
+    /*box-shadow: silver;*/
+
+}
+.crd-payment-tb:hover{
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.payment-grp{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+
+}
+.payment-lbl{
+    font-size: 18px;
+    margin-bottom:8px;
+}
+.payment-input{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(24, 54, 210, 0.66);
+    border-radius: 10px;
+    height: 40px;
+}
+.payment-input:hover{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1836d2;
+    border-radius: 10px;
+    height: 40px;
+}
+.payment-btn{
+    width: 400px;
+    height: 50px;
+    background-color: #1836d2;
+    border-style: solid;
+    border-color: #1836d2;
+    border-radius: 30px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.payment-btn:hover{
+    width: 400px;
+    height: 50px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #1836d2;
+    border-radius: 30px;
+    color: #1836d2;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+/*commit*/

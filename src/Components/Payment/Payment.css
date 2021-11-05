@@ -1,0 +1,134 @@
+.crd-product-tb{
+
+    height: fit-content;
+    margin: 45px 40px 40px;
+overflow-y: scroll;
+    /*background-color: magenta;*/
+    border-radius: 20px;
+    border-style: solid;
+    border-color: silver;
+    box-shadow: silver;
+
+}
+.main-div {
+    height: 450px;
+
+}
+.crd-product-title{
+    font-size: 36px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.product-table{
+
+
+    /*margin-left: 20px;*/
+    /*margin-right: 20px;*/
+    /*margin-top: 20px;*/
+    margin: 40px auto 30px auto;
+    width:1300px;
+    /*max-width: fit-content;*/
+
+
+    /*border-style: solid;*/
+
+
+
+}
+
+.add-product:hover{
+    margin-left: 200px;
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #1836d2;
+    border: 2px solid #1836d2;
+    color:white;
+
+}
+
+.add-product{
+    margin-left: 200px;
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid #1836d2;
+    color:#1836d2;
+
+}
+
+
+
+.wrapper-div {
+    background-color: white;
+    padding: 25px;
+}
+
+.detail-box-section {
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 130px auto;
+}
+
+.detail-group-left-title {
+    font-weight: 500;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px 0 0 10px;
+    border: 2px solid #1836d2;
+    background-color: #1836d2;
+}
+
+.detail-group-right-text {
+    font-weight: 500;
+    color: #707070;
+    padding: 10px 20px;
+    border-radius: 0 10px 10px 0;
+    border: 2px solid #1836d2;
+    width: 100%;
+}
+
+.add-product-btn{
+    width: 200px;
+    height: 50px;
+    background-color: #1836d2;
+    border: 2px solid #1836d2;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+.add-product-btn:hover{
+    width: 200px;
+    height: 50px;
+    background-color:transparent;
+    border: 2px solid #1836d2;
+    border-radius: 10px;
+    color: #1836d2;
+    font-weight: 500;
+}
+.btn-logout{
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    color: white;
+    width: 130px;
+    height: 40px
+}
+
+.btn-logout:hover{
+    background-color: white;
+    border-style: solid;
+    border-color: #1836d2;
+    border-radius: 20px;
+    color: #1836d2;
+    width: 130px;
+    height: 40px
+}

@@ -1,0 +1,219 @@
+.crd-order-tb{
+
+    height:fit-content;
+    overflow-y: scroll;
+    margin: 40px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    /*background-color: magenta;*/
+    border-radius: 20px;
+    border-style: solid;
+    border-color: silver;
+    /*responsive:true;*/
+    /*box-shadow: silver;*/
+
+}
+.crd-order-tb:hover{
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+.main-div {
+    height: 600px;
+
+}
+
+.btn-status {
+    font-weight: 500;
+}
+
+.order-btn-group {
+    align-self: center;
+    display: grid;
+    display-role: inline;
+    grid-template-columns: auto auto auto auto auto  auto auto auto auto;
+    /*margin: 30px auto 30px 40px;*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 40px;
+    border-radius: 15px;
+
+
+
+}
+.order-btn-group-mn{
+    align-self: center;
+    display: grid;
+    display-role: inline;
+    grid-template-columns: auto auto auto auto auto  ;
+    margin: 30px auto 30px 40px;
+    /*margin-top: 30px;*/
+    /*margin-bottom: 30px;*/
+    height: 40px;
+    border-radius: 15px;
+
+}
+.btn-allOrders{
+    border-style: solid;
+    border-color: #1836d2;
+    background-color: transparent;
+    color: #1836d2;
+    font-weight: bold;
+
+}
+
+.btn-allOrders:hover{
+    border-style: solid;
+    border-color: #1836d2;
+    background-color: #1836d2;
+    color: white;
+    font-weight: bold;
+}
+.btn-approved-orders{
+    border-style: solid;
+    border-color: #ad61d3;
+    background-color: transparent;
+    color: #ad61d3;
+    font-weight: bold;
+}
+.btn-approved-orders:hover{
+    border-style: solid;
+    border-color: #ad61d3;
+    background-color: #ad61d3;
+    color: white;
+    font-weight: bold;
+}
+.btn-rejected-orders{
+    border-style: solid;
+    border-color: #8e3cb7;
+    background-color: transparent;
+    color: #8e3cb7;
+    font-weight: bold;
+}
+.btn-rejected-orders:hover{
+    border-style: solid;
+    border-color: #8e3cb7;
+    background-color: #8e3cb7;
+    color: white;
+    font-weight: bold;
+}
+.btn-pending-orders{
+    border-style: solid;
+    border-color: #8826b9;
+    background-color: transparent;
+    color: #8826b9;
+    font-weight: bold;
+}
+.btn-pending-orders:hover{
+    border-style: solid;
+    border-color: #8826b9;
+    background-color: #8826b9;
+    color: white;
+    font-weight: bold;
+}
+.view-more{
+    background-color: #ad61d3;
+    color: white;
+    border-style: solid;
+    border-color: #ad61d3;
+    /*font-size: 12px;*/
+}
+/*.btn-auto-orders{*/
+/*    border-style: solid;*/
+/*    border-color: grey;*/
+/*    background-color: transparent;*/
+/*    color: grey;*/
+/*    font-weight: bold;*/
+/*}*/
+/*.btn-auto-orders:hover{*/
+/*    border-style: solid;*/
+/*    border-color: grey;*/
+/*    background-color: grey;*/
+/*    color: white;*/
+/*    font-weight: bold;*/
+/*}*/
+.order-table{
+
+    align-content: center;
+    margin: 10px auto 20px;
+
+
+    /*max-height: fit-content;*/
+    /*border-style: solid;*/
+
+
+
+}
+/*.order-table-thead{*/
+/*    background-color: #61dafb;*/
+/*}*/
+
+/*600px and down*/
+@media only screen and (max-width: 600px) {
+    .main-div {
+        height: 800px;
+    }
+
+    .order-btn-group {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+    }
+}
+
+/*600px and up*/
+@media only screen and (min-width: 600px) {
+    .main-div {
+        height: 500px;
+    }
+
+    .order-btn-group {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+    }
+}
+
+/*768px and up*/
+@media only screen and (min-width: 768px) {
+    .main-div {
+        height: 500px;
+    }
+
+    .order-btn-group {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+    }
+}
+
+/*992px and up*/
+@media only screen and (min-width: 992px) {
+    .main-div {
+        height: 600px;
+    }
+
+    .order-btn-group {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+    }
+}
+
+/*1200px and up*/
+@media only screen and (min-width: 1200px) {
+    .main-div {
+        height: 600px;
+    }
+
+    .order-btn-group {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+    }
+}
+
+.crd-order-title{
+    font-size: 36px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.orderHistory-table{
+    margin: 30px 10px 20px;
+}
